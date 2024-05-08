@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_EntireGulf_2050.py", line 161, in <module>
+    plt.save(logs/plot/FeatureImp_NoAdaptCost_EntireGulf_2050_126.png)
+AttributeError: module 'matplotlib.pyplot' has no attribute 'save'. Did you mean: 'imsave'?

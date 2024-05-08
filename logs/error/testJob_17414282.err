@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050_test.py", line 9, in <module>
+    from sklearn.tree import plot_tree
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/sklearn/__init__.py", line 82, in <module>
+    from .base import clone
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/sklearn/base.py", line 17, in <module>
+    from .utils import _IS_32BIT
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/sklearn/utils/__init__.py", line 25, in <module>
+    from .fixes import parse_version, threadpool_info
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/sklearn/utils/fixes.py", line 19, in <module>
+    import scipy.stats
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/stats/__init__.py", line 391, in <module>
+    from .stats import *
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/stats/stats.py", line 180, in <module>
+    from . import distributions
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/stats/distributions.py", line 8, in <module>
+    from ._distn_infrastructure import (entropy, rv_discrete, rv_continuous,
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/stats/_distn_infrastructure.py", line 23, in <module>
+    from scipy import optimize
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/optimize/__init__.py", line 421, in <module>
+    from ._shgo import shgo
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/optimize/_shgo.py", line 9, in <module>
+    from scipy import spatial
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/spatial/__init__.py", line 107, in <module>
+    from . import distance, transform
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/spatial/transform/__init__.py", line 19, in <module>
+    from .rotation import Rotation, Slerp
+ImportError: /.autofs/tools/spack/var/spack/environments/default-ml-23100201/.spack-env/view/lib/python3.10/site-packages/scipy/spatial/transform/rotation.cpython-310-x86_64-linux-gnu.so: undefined symbol: _PyGen_Send

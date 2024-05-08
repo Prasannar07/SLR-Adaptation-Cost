@@ -1,0 +1,14 @@
+skl-a-49.rc.rit.edu
+Processing 460...
+Best Parameters for NPVOptimalCost Gulf SSP_460: {'max_depth': 15, 'max_features': 42, 'min_samples_split': 2, 'n_estimators': 250}
+460 processing completed.
+Processing 585...
+Best Parameters for NPVOptimalCost Gulf SSP_585: {'max_depth': 15, 'max_features': 42, 'min_samples_split': 4, 'n_estimators': 250}
+585 processing completed.
+Processing 245...
+Best Parameters for NPVOptimalCost Gulf SSP_245: {'max_depth': 35, 'max_features': 42, 'min_samples_split': 2, 'n_estimators': 210}
+245 processing completed.
+Processing 126...
+Best Parameters for NPVOptimalCost Gulf SSP_126: {'max_depth': 35, 'max_features': 30, 'min_samples_split': 2, 'n_estimators': 130}
+126 processing completed.
+All scenarios processed.

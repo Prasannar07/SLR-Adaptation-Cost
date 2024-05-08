@@ -1,0 +1,22 @@
+theocho.rc.rit.edu
+Processing 460...
+Best Parameters for NoAdaptCost Gulf 2100 SSP_460: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 255}
+NoAdaptCost Gulf 2100 MSE for Random Forest on CV train data for ssp 460:  1.3343357893
+NoAdaptCost Gulf 2100 MSE for Random Forest on test data for ssp 460:  395.2845000517
+460 processing completed.
+Processing 245...
+Best Parameters for NoAdaptCost Gulf 2100 SSP_245: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 6, 'n_estimators': 255}
+NoAdaptCost Gulf 2100 MSE for Random Forest on CV train data for ssp 245:  9.5651456474
+NoAdaptCost Gulf 2100 MSE for Random Forest on test data for ssp 245:  661.3448524459
+245 processing completed.
+Processing 126...
+Best Parameters for NoAdaptCost Gulf 2100 SSP_126: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 255}
+NoAdaptCost Gulf 2100 MSE for Random Forest on CV train data for ssp 126:  0.0000013256
+NoAdaptCost Gulf 2100 MSE for Random Forest on test data for ssp 126:  102.3782229686
+126 processing completed.
+Processing 585...
+Best Parameters for NoAdaptCost Gulf 2100 SSP_585: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 300}
+NoAdaptCost Gulf 2100 MSE for Random Forest on CV train data for ssp 585:  23.0271329134
+NoAdaptCost Gulf 2100 MSE for Random Forest on test data for ssp 585:  2718.8743425121
+585 processing completed.
+All scenarios processed.

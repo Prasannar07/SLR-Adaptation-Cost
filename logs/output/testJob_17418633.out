@@ -1,0 +1,22 @@
+skl-a-16.rc.rit.edu
+Processing 245...
+Best Parameters for NPVOptimal Gulf SSP_245: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 160}
+NPVOptimal Gulf MSE for Random Forest on CV train data for ssp 245:  1.1019910818
+NPVOptimal Gulf MSE for Random Forest on test data for ssp 245:  347.3435891190
+245 processing completed.
+Processing 460...
+Best Parameters for NPVOptimal Gulf SSP_460: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 270}
+NPVOptimal Gulf MSE for Random Forest on CV train data for ssp 460:  1.1359211813
+NPVOptimal Gulf MSE for Random Forest on test data for ssp 460:  282.3829081025
+460 processing completed.
+Processing 126...
+Best Parameters for NPVOptimal Gulf SSP_126: {'bootstrap': False, 'max_depth': 40, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 160}
+NPVOptimal Gulf MSE for Random Forest on CV train data for ssp 126:  0.8223001312
+NPVOptimal Gulf MSE for Random Forest on test data for ssp 126:  131.9946089292
+126 processing completed.
+Processing 585...
+Best Parameters for NPVOptimal Gulf SSP_585: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 160}
+NPVOptimal Gulf MSE for Random Forest on CV train data for ssp 585:  25.1974583750
+NPVOptimal Gulf MSE for Random Forest on test data for ssp 585:  753.9009957956
+585 processing completed.
+All scenarios processed.

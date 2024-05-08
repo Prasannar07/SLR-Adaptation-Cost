@@ -1,0 +1,22 @@
+skl-a-53.rc.rit.edu
+Processing 585...
+Best Parameters for NoAdaptCost Gulf 2050 SSP_585: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 255}
+NoAdaptCost Gulf 2050 MSE for Random Forest on CV train data for ssp 585:  0.1472305656
+NoAdaptCost Gulf 2050 MSE for Random Forest on test data for ssp 585:  287.6808645441
+585 processing completed.
+Processing 126...
+Best Parameters for NoAdaptCost Gulf 2050 SSP_126: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 140}
+NoAdaptCost Gulf 2050 MSE for Random Forest on CV train data for ssp 126:  0.8907396589
+NoAdaptCost Gulf 2050 MSE for Random Forest on test data for ssp 126:  14.0487611536
+126 processing completed.
+Processing 460...
+Best Parameters for NoAdaptCost Gulf 2050 SSP_460: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 255}
+NoAdaptCost Gulf 2050 MSE for Random Forest on CV train data for ssp 460:  0.0000110750
+NoAdaptCost Gulf 2050 MSE for Random Forest on test data for ssp 460:  27.5010326280
+460 processing completed.
+Processing 245...
+Best Parameters for NoAdaptCost Gulf 2050 SSP_245: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 270}
+NoAdaptCost Gulf 2050 MSE for Random Forest on CV train data for ssp 245:  0.0000152428
+NoAdaptCost Gulf 2050 MSE for Random Forest on test data for ssp 245:  56.3051112407
+245 processing completed.
+All scenarios processed.

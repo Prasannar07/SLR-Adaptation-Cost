@@ -1,0 +1,20 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+TypeError: parallel_execution() missing 1 required positional argument: 'scenario_name'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pr1408/Desktop/TimestampScripts/OptimalCost.py", line 115, in <module>
+    pool.map(parallel_execution, [(scenario) for scenario in scenarios])
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+TypeError: parallel_execution() missing 1 required positional argument: 'scenario_name'

@@ -1,0 +1,2 @@
+CUDA Error (yaksuri_cuda_init_hook:src/backend/cuda/hooks/yaksuri_cuda_init_hooks.c,111): no CUDA-capable device is detected
+/var/spool/slurmd/job17408828/slurm_script: line 19: 13201 Segmentation fault      python sneasybrick-ciam-NoAdapt_Gulf_2050_test.py

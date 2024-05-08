@@ -1,0 +1,22 @@
+skl-a-17.rc.rit.edu
+Processing 585...
+Best Parameters for OptimalCost Gulf 2050 SSP_585: {'bootstrap': False, 'max_depth': 40, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 270}
+OptimalCost Gulf 2050 MSE for Random Forest on CV train data for ssp 585:  0.0218728637
+OptimalCost Gulf 2050 MSE for Random Forest on test data for ssp 585:  8.1363212067
+585 processing completed.
+Processing 126...
+Best Parameters for OptimalCost Gulf 2050 SSP_126: {'bootstrap': False, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 160}
+OptimalCost Gulf 2050 MSE for Random Forest on CV train data for ssp 126:  0.0000000000
+OptimalCost Gulf 2050 MSE for Random Forest on test data for ssp 126:  0.9361001862
+126 processing completed.
+Processing 460...
+Best Parameters for OptimalCost Gulf 2050 SSP_460: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 270}
+OptimalCost Gulf 2050 MSE for Random Forest on CV train data for ssp 460:  0.0114933472
+OptimalCost Gulf 2050 MSE for Random Forest on test data for ssp 460:  2.7583723277
+460 processing completed.
+Processing 245...
+Best Parameters for OptimalCost Gulf 2050 SSP_245: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 270}
+OptimalCost Gulf 2050 MSE for Random Forest on CV train data for ssp 245:  0.0169511176
+OptimalCost Gulf 2050 MSE for Random Forest on test data for ssp 245:  3.5335211581
+245 processing completed.
+All scenarios processed.

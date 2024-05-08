@@ -1,0 +1,29 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 283, in parallel_execution
+    process_scenario(scenario_name)
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 196, in process_scenario
+    rf = RandomForestRegressor(max_depth_range=n, random_state=100)
+TypeError: RandomForestRegressor.__init__() got an unexpected keyword argument 'max_depth_range'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 295, in <module>
+    pool.map(parallel_execution, scenarios)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+TypeError: RandomForestRegressor.__init__() got an unexpected keyword argument 'max_depth_range'
+Exception ignored in: <function Pool.__del__ at 0x7f4e2a0c8040>
+Traceback (most recent call last):
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 271, in __del__
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/queues.py", line 371, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

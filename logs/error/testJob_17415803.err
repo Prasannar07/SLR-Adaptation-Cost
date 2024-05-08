@@ -1,0 +1,45 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 283, in parallel_execution
+    process_scenario(scenario_name)
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 135, in process_scenario
+    plt.savefig(f'plot/NoAdapt_Gulf2050_{scenario_name}.png')
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/view/lib/python3.10/site-packages/PIL/Image.py", line 2429, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'plot/NoAdapt_Gulf2050_585.png'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pr1408/Desktop/sneasybrick-ciam-NoAdapt_Gulf_2050.py", line 295, in <module>
+    pool.map(parallel_execution, scenarios)
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 774, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: 'plot/NoAdapt_Gulf2050_585.png'
+Exception ignored in: <function Pool.__del__ at 0x7f9c5fe50040>
+Traceback (most recent call last):
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/pool.py", line 271, in __del__
+  File "/.autofs/tools/spack/var/spack/environments/default-ml-23090601/.spack-env/._view/2mdpj2aa22fot5urzreb2xlfg6nbakmy/lib/python3.10/multiprocessing/queues.py", line 371, in put
+AttributeError: 'NoneType' object has no attribute 'dumps'

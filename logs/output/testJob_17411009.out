@@ -1,0 +1,22 @@
+skl-a-08.rc.rit.edu
+Processing 585...
+Best Parameters for SSP_585: {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 150}
+MSE for Random Forest on CV train data for ssp 585:  0.1632770771
+MSE for Random Forest on test data for ssp 585:  288.8073630204
+585 processing completed.
+Processing 126...
+Best Parameters for SSP_126: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 140}
+MSE for Random Forest on CV train data for ssp 126:  0.8907396589
+MSE for Random Forest on test data for ssp 126:  14.0487611536
+126 processing completed.
+Processing 245...
+Best Parameters for SSP_245: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 140}
+MSE for Random Forest on CV train data for ssp 245:  0.0000323769
+MSE for Random Forest on test data for ssp 245:  57.3006097544
+245 processing completed.
+Processing 460...
+Best Parameters for SSP_460: {'bootstrap': False, 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 150}
+MSE for Random Forest on CV train data for ssp 460:  0.0000100579
+MSE for Random Forest on test data for ssp 460:  27.5277716075
+460 processing completed.
+All scenarios processed.
